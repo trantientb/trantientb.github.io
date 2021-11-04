@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  color: white;
+}
+.container {
+  display: flex;
+}
+
+.column-left,
+.column-right,
+.column-mid {
+  height: 400px;
+}
+
+.column-left {
+  background-color: red;
+  width: 60%;
+}
+
+.column-right {
+  background-color: blue;
+  width: 40%;
+}
+
+.top {
+  background-color: green;
+  height: 200px;
+}
+
+.bot {
+  background-color: blue;
+  height: 200px;
+}

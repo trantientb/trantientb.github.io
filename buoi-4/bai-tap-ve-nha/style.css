@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  color: white;
+}
+.container {
+  display: flex;
+}
+
+.column-left,
+.column-right,
+.column-mid {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-size: 50px;
+}
+
+.column-left {
+  background-color: red;
+  width: 33%;
+}
+
+.column-mid {
+  background-color: green;
+  width: 34%;
+  margin-left: 15px;
+}
+
+.column-right {
+  background-color: blue;
+  width: 33%;
+  margin-left: 15px;
+}
+
